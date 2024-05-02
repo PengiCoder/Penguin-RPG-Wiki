@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "astro": "^4.7.0",
+    "surge": "^0.0.0"
+  }
+}
