@@ -14,7 +14,8 @@ jobs:
           node-version: 18
       - run: npm ci
       - run: npm install -g surge
-      - run: npm run build # not run build because that checks astro files first which has issues...
+      - run: npm install astro
+      - run: npm run astro build # not run build because that checks astro files first which has issues...
       - run: surge dist ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
       - run: surge dist ${{ secrets.SURGE_DOMAIN_2 }} --token ${{ secrets.SURGE_TOKEN }}
       
