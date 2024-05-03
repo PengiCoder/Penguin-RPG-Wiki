@@ -17,4 +17,4 @@ jobs:
       - run: npm install astro
       - run: npm run build
       - run: surge dist ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
-      
+      # let's see if it works
