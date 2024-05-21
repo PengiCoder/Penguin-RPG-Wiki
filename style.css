@@ -3,8 +3,9 @@ body {
   padding: 0;
   background-image: url("background.png");
   background-size: cover;
+  background-attachment: fixed;  /* Fix background position */
   background-repeat: no-repeat;
-  font-family: Arial, sans-serif;  /* Change font here */
+  font-family: Arial, sans-serif;
 }
 
 .container {
@@ -12,18 +13,52 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;  /* Fills entire viewport height */
+  height: 100vh;
 }
 
 .info-box {
-  background-color: rgba(0, 0, 0, 0.5);  /* Semi-transparent black */
-  color: white;
+  background-color: white;
   padding: 20px;
-  border-radius: 5px;  /* Rounded corners */
+  border-radius: 5px;
   text-align: center;
 }
 
 h1 {
-  font-size: 3em;  /* Adjust font size for heading */
+  font-size: 3em;
   margin-bottom: 20px;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
 }
