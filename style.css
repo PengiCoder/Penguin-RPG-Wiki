@@ -3,7 +3,7 @@ body {
   padding: 0;
   background-image: url("background.png");
   background-size: cover;
-  background-attachment: fixed;  /* Fix background position */
+  background: fixed;  /* Fix background position */
   background-repeat: no-repeat;
   font-family: Arial, sans-serif;
 }
