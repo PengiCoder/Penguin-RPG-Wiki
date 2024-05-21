@@ -1,1 +1,2 @@
 # Welcome to Pengi RPG
+[![pages-build-deployment](https://github.com/PengiRPG/pengirpg.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/PengiRPG/pengirpg.github.io/actions/workflows/pages/pages-build-deployment)
